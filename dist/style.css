@@ -17,3 +17,16 @@ dialog{border:1px solid #415268;border-radius:12px;background:#0f1826;color:var(
 @media(max-width:350px){.hero .personal-name{font-size:51px}.personal-role{font-size:20px}nav{gap:10px;font-size:8px}.brand{font-size:11px}.brand small{font-size:5px}.profile-snapshot{column-gap:13px}.profile-snapshot strong{font-size:9px}.profile-snapshot>div>a{font-size:8px}.agro-diagram{gap:12px}.leaf-frame{width:91px}.agro-stages>b{min-width:106px;font-size:11px}.lens-diagram{gap:10px}.lens-sources>span{font-size:8px}.lens-evidence>strong{font-size:14px}.supporting-project .card-content h3{font-size:21px}}
 
 .automation-context{font-size:9px;color:#94bdb6;margin-top:13px}.automation-intro{font-size:12px;color:#b6acc4;line-height:1.8;margin-bottom:18px}.automation.supporting-project{border-top-color:#69ad9b}.automation .card-content h3{font-size:24px;line-height:1.4}@media(max-width:540px){.automation .card-content h3{font-size:21px}.automation-context{font-size:8px}.automation-intro{font-size:11px}}
+
+/* Compact, scrollable recruiter toolkit */
+.personal-about{align-items:stretch}
+.skills-profile{align-self:stretch;display:flex;flex-direction:column;min-height:0;max-height:680px}
+.skills-scroll{min-height:0;overflow-y:auto;overscroll-behavior:contain;margin-top:17px;padding-right:12px;scrollbar-width:thin;scrollbar-color:#579c8f #172433}
+.skills-scroll::-webkit-scrollbar{width:7px}
+.skills-scroll::-webkit-scrollbar-track{background:#172433;border-radius:10px}
+.skills-scroll::-webkit-scrollbar-thumb{background:#579c8f;border-radius:10px;border:2px solid #172433}
+.skills-scroll .skill-family:first-child{padding-top:4px}
+.skills-scroll .skill-family:last-child{border-bottom:0}
+.skills-scroll:focus-visible{outline:2px solid var(--cyan);outline-offset:6px;border-radius:4px}
+.profile-contact{margin-top:auto;border-top:1px solid #2a394e}
+@media(max-width:800px){.skills-profile{max-height:none}.skills-scroll{overflow:visible;padding-right:0}.skills-scroll:focus-visible{outline:none}.profile-contact{margin-top:0}}
