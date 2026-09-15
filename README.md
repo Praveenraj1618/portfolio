@@ -2,6 +2,8 @@
 
 I am an Artificial Intelligence and Machine Learning undergraduate at Sona College of Technology, focused on building practical AI systems from model experimentation through usable applications. My work spans generative AI, retrieval-augmented generation, computer vision, workflow automation, and full-stack engineering.
 
+**Interactive portfolio:** [praveen-raj-portfolio.praveenrajb1618.chatgpt.site](https://praveen-raj-portfolio.praveenrajb1618.chatgpt.site)
+
 ## Selected work
 
 ### Legal AI Intelligence & Negotiation Platform
