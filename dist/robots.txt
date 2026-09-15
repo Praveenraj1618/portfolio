@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://praveen-raj-portfolio-praveen-rajs-projects-264be7ed.vercel.app/sitemap.xml
+Sitemap: https://praveen-raj-portfolio-three-praveen-rajs-projects-264be7ed.vercel.app/sitemap.xml
